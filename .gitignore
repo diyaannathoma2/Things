@@ -5,3 +5,6 @@
 *.out
 .ccls-cache/
 .ccls
+
+# CMake.
+cmake-build-debug/
