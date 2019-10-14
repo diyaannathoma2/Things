@@ -4,4 +4,4 @@
 # C.
 *.out
 .ccls-cache/
-.ccls/
+.ccls
