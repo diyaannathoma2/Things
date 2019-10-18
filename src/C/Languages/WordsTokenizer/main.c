@@ -2,11 +2,9 @@
 #include "common/cursor.h"
 
 int main() {
-  StringCursor cursor = {
-      .source = "Hello",
-      .index = 0
-  };
+    StringCursor cursor = cursorOf("Hello");
 
-  printf("%c", currentOf(cursor));
-  return 0;
+    printf("%c", currentOf(cursor));
+
+    return 0;
 }
