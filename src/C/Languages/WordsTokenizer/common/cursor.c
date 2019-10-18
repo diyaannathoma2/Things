@@ -1,5 +1,5 @@
 #include "cursor.h"
 
-char currentOf(StringCursor cursor) {
+char inline currentOf(StringCursor cursor) {
     return *(cursor.source + cursor.index);
 }

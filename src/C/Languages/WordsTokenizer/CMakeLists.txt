@@ -9,12 +9,3 @@ add_executable(WordsTokenizer
         common/cursor.c
         common/cursor.h
         main.c)
-
-include_directories(tests)
-
-add_executable(WordsTokenizerTests
-        common/cursor.c
-        common/cursor.h
-        tests/cursor_tests.c
-        tests/cursor_tests.h
-        tests.c)
