@@ -1,6 +1,11 @@
 # IDE.
 .idea/
 
+# Emacs
+*~
+\#*\#
+.\#*
+
 # C.
 *.out
 .ccls-cache/
