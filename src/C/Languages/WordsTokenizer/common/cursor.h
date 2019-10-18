@@ -6,7 +6,7 @@ typedef struct {
     int   index;
 } StringCursor;
 
-StringCursor cursorOf(char* source);
-char currentOf(StringCursor cursor);
+StringCursor cursor_of(char* source);
+char current_of(StringCursor cursor);
 
 #endif

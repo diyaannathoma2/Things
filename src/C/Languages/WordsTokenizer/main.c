@@ -2,9 +2,9 @@
 #include "common/cursor.h"
 
 int main() {
-    StringCursor cursor = cursorOf("Hello");
+    StringCursor cursor = cursor_of("Hello");
 
-    printf("%c", currentOf(cursor));
+    printf("%c", current_of(cursor));
 
     return 0;
 }
